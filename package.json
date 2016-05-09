@@ -1,0 +1,36 @@
+{
+  "name": "colorqueue-firebase",
+  "version": "1.0.0",
+  "description": "Application which connects to firebase server, watches /colors reference for changes, and syncrhonizes changes with instance of ColorQueue which animates colors on an LED strip.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublish": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmazzola/colorqueue.git"
+  },
+  "keywords": [
+    "adafruit",
+    "dotstar",
+    "leds",
+    "light",
+    "queue",
+    "color",
+    "firebase"
+  ],
+  "author": "Matt Mazzola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattmazzola/colorqueue/issues"
+  },
+  "homepage": "https://github.com/mattmazzola/colorqueue#readme",
+  "dependencies": {
+    "colorqueue": "^1.0.1",
+    "dotstar": "^1.0.0",
+    "firebase": "^2.4.2",
+    "pi-spi": "^1.0.1"
+  }
+}
